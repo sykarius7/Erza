@@ -1,0 +1,139 @@
+.custom {
+  margin-top: 25px;
+}
+
+/*
+.cs-message__content {
+  background-color: rgb(132, 191, 240) !important;
+}
+.cs-message__html-content {
+  background-color: rgb(132, 191, 240) !important;
+}*/
+
+.cs-message--outgoing .cs-message__sent-time {
+  display: inline !important;
+}
+.cs-message--outgoing .cs-message__sender-name {
+  display: inline !important;
+}
+.header-text {
+  text-align: center;
+  font-size: 45px;
+}
+.header-text span {
+  margin-left: 15px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.cs-message-list {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/1ce52173426833.5c08f56353039.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-message {
+  box-sizing: border-box;
+  font-size: 13px;
+  font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+
+  padding: 6px;
+  background-color: #6ea9d7;
+
+  border-radius: 10px;
+  position: fixed;
+  top: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+}
+.microphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #65a2e0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+input[type="text"] {
+  background-color: #83cce9;
+  color: rgb(22, 20, 20);
+  border: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 18px;
+  padding-left: 30px;
+}
+::placeholder {
+  color: rgb(26, 18, 18);
+  opacity: 1;
+  padding-left: 2%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+.text-box:focus {
+  outline: white;
+}
+
+.input-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #65a2e0;
+  padding: 4px;
+}
+
+.text-box {
+  width: 86vw;
+  border-radius: 12px;
+  margin-top: 3px;
+}
+
+.text {
+  background-color: rgb(11, 12, 12);
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-right: 10px;
+  border-radius: 6px;
+  padding: 7px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.cs-message__sender-name {
+  color: rgb(239, 236, 245) !important;
+  font-size: 11px !important;
+  background-color: #65a2e0 !important;
+  border-radius: 6px;
+  padding: 3px;
+}
+.send-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #4dc1ef;
+  border: 0;
+}
+.send-btn:focus {
+  outline: white;
+}
+.auth {
+  color: black;
+  position: absolute;
+  right: 40px;
+  width: 100px;
+  bottom: 15px;
+}
+#video3 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

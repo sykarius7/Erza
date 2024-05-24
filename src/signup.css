@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#video2 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero2 {
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+}
+.form1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(46, 43, 43, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  height: 550px;
+  width: 370px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputbox1 {
+  padding: 7px;
+  width: 240px;
+  border-radius: 9px;
+  border: 0;
+}
+.inputbox1:focus {
+  outline: none;
+  border: 0;
+}
+.form1:hover .gradient2 {
+  opacity: 0.4;
+}
+.gradient2 {
+  position: absolute;
+  background-image: linear-gradient(0deg, #f2e7e7, transparent);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: -1;
+}
+.overlay2 {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.title2 {
+  color: white;
+  font-size: 33px;
+  text-align: center;
+}
+.email2 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 13px;
+  text-align: center;
+  font-size: 25px;
+}
+.password2 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 13px;
+  font-size: 25px;
+  text-align: center;
+}

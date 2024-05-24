@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#video {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero {
+  height: 100vh;
+  width: 100vw;
+  object-fit: contain;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(46, 43, 43, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  height: 550px;
+  width: 370px;
+}
+.context {
+  color: white;
+  margin-top: 30px;
+}
+.title {
+  text-align: center;
+}
+.card:hover .gradient {
+  opacity: 0.6;
+}
+.gradient {
+  position: absolute;
+  background-image: linear-gradient(0deg, #f2e7e7, transparent);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.title {
+  color: white;
+  font-size: 4rem;
+}
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.btn {
+  margin-top: 60px;
+}
