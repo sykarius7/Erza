@@ -1,4 +1,5 @@
 # Erza
+
 Project Title: ERZA - ChatGPT powered AI assistant 
 
 Overview: 
@@ -32,9 +33,11 @@ ERZA represents a groundbreaking advancement in AI-powered personal assistants, 
  
 
 Output: 
-
-
- 
+![Screenshot (200)](https://github.com/sykarius7/Erza/assets/96909847/dcbc61f2-fc56-4f63-8786-71f606a22258)
+![Screenshot (201)](https://github.com/sykarius7/Erza/assets/96909847/c871b59d-19cc-458d-82b7-cf65c9ac9f42)
+![Screenshot (202)](https://github.com/sykarius7/Erza/assets/96909847/a29983d3-3943-4d8c-9da4-02c3929a9d7f)
+![Screenshot (203)](https://github.com/sykarius7/Erza/assets/96909847/86e89862-dcb2-4782-b9eb-191b7cae403c)
+![Screenshot (204)](https://github.com/sykarius7/Erza/assets/96909847/82331d0c-76d3-4ace-9351-96a1f1905035)
 
  
 
